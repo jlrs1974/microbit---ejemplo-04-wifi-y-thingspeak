@@ -18,7 +18,5 @@ basic.forever(function () {
         OLED.writeString("T (C): ")
         OLED.writeNum(input.temperature())
         OLED.newLine()
-    } else {
-        basic.showIcon(IconNames.Sad)
     }
 })
