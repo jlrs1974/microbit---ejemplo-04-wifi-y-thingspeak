@@ -11,6 +11,7 @@ basic.forever(function () {
         "RY1W34VOS4Q56GZB",
         input.temperature()
         )
+        basic.showString(timeanddate.time(timeanddate.TimeFormat.HHMMSS24hr))
         ESP8266_IoT.uploadData()
         OLED.writeString("Hora: ")
         OLED.writeString(timeanddate.time(timeanddate.TimeFormat.HHMMSS24hr))
