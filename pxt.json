@@ -1,5 +1,5 @@
 {
-    "name": "MicroBit - Ejemplo 04 (WiFi y ThingSpeak)",
+    "name": "MicroBit - Ejemplo 05 (WiFi, Reloj y ThingSpeak)",
     "description": "",
     "dependencies": {
         "core": "*",
